@@ -11,7 +11,7 @@ namespace PlatformService.Data
 
         IEnumerable<Platform> GetAllPlatforms();
 
-        Platform GetPlatformById(int Id);
+        Platform GetPlatformById(int id);
 
         void CreatePlatform(Platform platform);
         
