@@ -3,10 +3,10 @@ using PlatformService.Models;
 
 namespace PlatformService.Data
 {
-    
+
     public interface IPlatformRepo
     {
-        
+
         bool SaveChanges();
 
         IEnumerable<Platform> GetAllPlatforms();
@@ -14,6 +14,6 @@ namespace PlatformService.Data
         Platform GetPlatformById(int id);
 
         void CreatePlatform(Platform platform);
-        
+
     }
 }
